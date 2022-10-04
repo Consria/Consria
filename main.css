@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Zort;
+    src: url(fonts/HIROMISAKE.ttf);
+}
+body{
+    background-color: #181919;
+}
+
+.header{
+    width: 100%;
+    min-width: 1080px;
+    height: auto;
+    background-color: #00afa6;
+    font-family: Zort;
+}
+
+.logo{
+    margin-left: 2%;
+    font-family: Zort;
+    font-size: 300%;
+    display: flex;
+}
+
+.logo::after{
+    content: "CONSRIA";
+    display: flex;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+.slider{
+    width: 500px;
+    height: 300px;
+    border: aquamarine 5px solid;
+}
+
+#b1{
+    width: 50px;
+    height: 100px;
+    background-color: red;
+}
+
+#b2{
+    width: 50px;
+    height: 100px;
+    background-color: red;
+}
